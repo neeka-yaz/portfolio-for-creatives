@@ -625,7 +625,7 @@ a.nav-link-primary:hover {
 }
 
 
-.work-page {background-image: url(../assets/branding-images/background.jpg);
+.work-page {
 
 background-repeat: no-repeat;
 background-size: contain;
