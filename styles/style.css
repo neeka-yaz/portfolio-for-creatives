@@ -268,10 +268,6 @@ svg {
 }
 
 /* Adds a dashed border to help you see the box while you're designing */
-.border {
-  border: 1px dashed var(--color-accent-primary); /* This uses your custom accent color */
-  /* TODO: Delete this later – it’s just here to help you see the box while you work */
-}
 
 /* ---------------------- */
 /* ✍️  Typography Helpers */
@@ -559,7 +555,7 @@ a:active {
 
 a.nav-link-primary {
   color: var(--color-nav-link);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 a.nav-link-primary:hover {
   color: var(--color-nav-link-hover);
@@ -801,7 +797,7 @@ background-position-y: top;
 .portfolio,
 .project-wrapper,
 .work-sidebar-wrapper {
-  padding: var(--padding-tiny); /* Padding to keep content from touching edges */
+  padding: var(--padding-medium); /* Padding to keep content from touching edges */
 }
 
 /* Work Sidebar on Mobile */
@@ -1106,7 +1102,7 @@ background-position-y: top;
 /* Sidebar Styles */
 .project-aside {
   width: 100%;
-  padding: var(--padding-small);
+  /* padding: var(--padding-small); */
   display: flex;
   flex-direction: column;
   color: var(--color-text-project-sidebar);
@@ -1164,7 +1160,7 @@ background-position-y: top;
   align-items: flex-end;
   justify-content: space-between;
   width: 100%;
-  padding: var(--padding-medium);
+  /* padding: var(--padding-small); */
   
 }
 
@@ -1194,7 +1190,7 @@ background-position-y: top;
 /* Blog and Resume page styles */
 
 .text-section {
-  width: 100%;
+  width: 85%;
   background: var(--color-bg);
   padding-top: var(--padding-small);
   padding-left: var(--padding-small);
@@ -1443,7 +1439,10 @@ to keep your styles reusable and consistent.
   .portfolio,
   .project-wrapper,
   .work-sidebar-wrapper {
-    padding: var(--padding-medium);
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-medium);
+    padding-left: var(--padding-jumbo);
+    padding-right: var(--padding-jumbo);
   }
 
   /* Project Page Flex Direction on Large Devices */
@@ -1482,6 +1481,10 @@ to keep your styles reusable and consistent.
   /* Main Project Image Area on Large Devices */
 
   .project-details {
+    width: 70%;
+  }
+
+  .project-details-resume {
     width: 100%;
   }
 
