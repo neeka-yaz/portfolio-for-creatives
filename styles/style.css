@@ -382,7 +382,7 @@ svg {
 /* Heading Styles (h1 - h6) */
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-family: var(--font-family-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -1270,7 +1270,7 @@ background-position-y: top;
 /* A great 404 page is a chance to leave a memorable impression when visitors land on a page that doesn't exist. Consider customizing this page to be more engaging, humorous, or on-brand with your site. Check out error.css for the gradient and glitch effect. */
 
 .error-headline-wrapper {
-  width: 85%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -1288,6 +1288,10 @@ background-position-y: top;
   width: 25rem;
 }
 
+.error-image {
+max-width: 70%;
+padding-bottom: var(--padding-large);
+}
 /*
 
 ██████  ██       █████  ██    ██ 
@@ -1365,6 +1369,11 @@ to keep your styles reusable and consistent.
   align-items: center;
 }
 
+.error-image {
+max-width: 60%;
+padding-bottom: var(--padding-large);
+}
+
 }
 
     h3 {
@@ -1435,9 +1444,13 @@ to keep your styles reusable and consistent.
   }
 
   .error-404 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
+  .error-image {
+max-width: 40%;
+padding-bottom: var(--padding-medium);
+}
   /* Work Page Grid for Large Devices */
 
   .grid {
