@@ -129,7 +129,7 @@
   /* Link States */
   --color-link: #6F7ACF;
   --color-link-hover: #F29EBC;
-  --color-link-visited: #F29EBC;
+  --color-link-visited: #6F7ACF;
   /* Navigation */
   --color-nav-link: #6F7ACF;
   --color-nav-link-hover: #F29EBC;
@@ -624,7 +624,12 @@ a.nav-link-primary:hover {
   min-height: 5rem; /* Space reserved for logo + nav */
 }
 
-
+.play {
+  width: 100%;
+  min-height: 50vh; /* Takes up most of the screen height */
+  display: flex;
+  flex-direction: column;
+}
 .work-page {
 
 background-repeat: no-repeat;
@@ -678,8 +683,24 @@ background-position-y: top;
   align-items: center;
   justify-content: center;
   /* padding: var(--padding-medium); */
-  padding-top: var(--padding-small);
+  padding-top: var(--padding-medium);
     padding-bottom: var(--padding-large);
+    padding-left: var(--padding-medium);
+    padding-right: var(--padding-medium);
+  text-align: center; /* Keeps text centered */
+}
+
+.play-headline-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  /* padding: var(--padding-medium); */
+  padding-top: var(--padding-small);
+    padding-bottom: var(--padding-small);
     padding-left: var(--padding-medium);
     padding-right: var(--padding-medium);
   text-align: center; /* Keeps text centered */
@@ -895,7 +916,7 @@ background-position-y: top;
   grid-template-columns: 1fr; /* Single column layout for mobile and smaller screens */
   grid-gap: 3rem; /* Space between grid items */
   background: var(--color-bg-about); /* Background color for the section */
-  padding: var(--padding-small); /* Padding around the grid */
+  padding: var(--padding-medium); /* Padding around the grid */
   flex: 1; /* Flex-grow to take up available space */
 }
 
@@ -929,10 +950,10 @@ background-position-y: top;
 .footer-global {
   display: grid;
   grid-template-columns: 1fr; /* Single column layout */
-  grid-gap: 3rem; /* Consistent spacing between sections */
+  /* grid-gap: 3rem; Consistent spacing between sections */
   min-height: auto; /* Allows footer to expand based on content, no fixed height */
   background: var(--color-bg-footer); /* Using CSS variable for theming */
-  padding: var(--padding-small); /* Internal spacing */
+  padding: var(--padding-medium); /* Internal spacing */
 
   /* Note: Using 'fr' units ensures proper scaling across devices */
 }
