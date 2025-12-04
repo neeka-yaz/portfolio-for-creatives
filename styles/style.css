@@ -121,7 +121,7 @@
   --h6-color: #2B2551;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
-  --color-text-project-category: #F29EBC;
+  --color-text-project-category: #e65aa5;
   --color-text-project-description: #2B2551;
   --color-text-project-sidebar: #6F7ACF;
   --color-text-project-title: #2B2551;
@@ -132,9 +132,9 @@
   --color-link-visited: #6F7ACF;
   /* Navigation */
   --color-nav-link: #6F7ACF;
-  --color-nav-link-hover: #F29EBC;
+  --color-nav-link-hover: #e65aa5;
   --color-nav-arrow: #6F7ACF;
-  --color-nav-arrow-hover: #F29EBC;
+  --color-nav-arrow-hover: #e65aa5;
   --color-nav-arrow-stroke: #5200ff;
   --color-nav-arrow-stroke-hover: #2B2551;
   /* Components */
