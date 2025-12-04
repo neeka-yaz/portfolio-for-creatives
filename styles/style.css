@@ -1344,10 +1344,29 @@ to keep your styles reusable and consistent.
 /* Media Queries for Layout Adjustments */
 
 /* Medium devices (tablets, 768px and up) */
+@media (Min-width: 360px) {
 
+.nav-branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--padding-small);
+  align-items: center;
+}
+
+}
 @media (min-width: 768px) {
   /* TODO: Adjust  layout for tablets */
+.nav-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-small);
+  align-items: center;
 }
+
+}
+
     h3 {
         font-size: 1.5rem;
     }
