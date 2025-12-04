@@ -124,7 +124,7 @@
   --color-text-project-category: #F29EBC;
   --color-text-project-description: #2B2551;
   --color-text-project-sidebar: #6F7ACF;
-  --color-text-project-title: #0F0C24;
+  --color-text-project-title: #2B2551;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #6F7ACF;
@@ -136,7 +136,7 @@
   --color-nav-arrow: #6F7ACF;
   --color-nav-arrow-hover: #F29EBC;
   --color-nav-arrow-stroke: #5200ff;
-  --color-nav-arrow-stroke-hover: #000;
+  --color-nav-arrow-stroke-hover: #2B2551;
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
@@ -473,7 +473,7 @@ em {
 
 /* Project description text — pairs with the project title */
 .project-description {
-  font-size: 1.225rem;
+  font-size: 1.125rem;
   line-height: 1.2;
   color: var(--color-text-project-description);
   margin-bottom: 1rem;
