@@ -946,7 +946,7 @@ background-position-y: top;
 .footer-global {
   display: grid;
   grid-template-columns: 1fr; /* Single column layout */
-  /* grid-gap: 3rem; Consistent spacing between sections */
+  grid-gap: 2rem;
   min-height: auto; /* Allows footer to expand based on content, no fixed height */
   background: var(--color-bg-footer); /* Using CSS variable for theming */
   padding: var(--padding-medium); /* Internal spacing */
