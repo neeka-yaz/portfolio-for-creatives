@@ -680,7 +680,7 @@ background-position-y: top;
   justify-content: center;
   /* padding: var(--padding-medium); */
   padding-top: var(--padding-medium);
-    padding-bottom: var(--padding-large);
+    padding-bottom: var(--padding-small);
     padding-left: var(--padding-medium);
     padding-right: var(--padding-medium);
   text-align: center; /* Keeps text centered */
@@ -1147,7 +1147,7 @@ background-position-y: top;
 /* Project details section */
 .project-details {
   width: 100%;
-  padding: var(--padding-small);
+  /* padding: var(--padding-small); */
   /* background: var(--color-gradient-project-details); TODO: Remove gradient background if you prefer a simpler design */
 }
 
@@ -1476,8 +1476,8 @@ padding-bottom: var(--padding-medium);
   .work-sidebar-wrapper {
     padding-top: var(--padding-medium);
     padding-bottom: var(--padding-medium);
-    padding-left: var(--padding-jumbo);
-    padding-right: var(--padding-jumbo);
+    padding-left: var(--padding-medium);
+    padding-right: var(--padding-medium);
   }
 
   /* Project Page Flex Direction on Large Devices */
@@ -1566,9 +1566,9 @@ padding-bottom: var(--padding-medium);
 
   .footer-global {
     padding-top: var(--padding-medium);
-    padding-right: var(--padding-jumbo);
+    padding-right: var(--padding-medium);
     padding-bottom: 0;
-    padding-left: var(--padding-jumbo);
+    padding-left: var(--padding-medium);
     grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
   }
 
