@@ -1147,7 +1147,7 @@ background-position-y: top;
 /* Project details section */
 .project-details {
   width: 100%;
-  /* padding: var(--padding-small); */
+  padding-top: var(--padding-medium);
   /* background: var(--color-gradient-project-details); TODO: Remove gradient background if you prefer a simpler design */
 }
 
