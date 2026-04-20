@@ -382,7 +382,7 @@ svg {
 /* Heading Styles (h1 - h6) */
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: var(--font-family-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -465,7 +465,7 @@ em {
   font-family: var(--font-family-project-title);
   color: var(--color-text-project-title);
   margin-bottom: 1rem;
-  line-height: 3rem;
+  line-height: 2.8rem;
 }
 
 /* Project description text — pairs with the project title */
