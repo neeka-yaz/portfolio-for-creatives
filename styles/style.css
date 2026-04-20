@@ -1364,6 +1364,7 @@ to keep your styles reusable and consistent.
         line-height: 1rem;
     }
   }
+}
 
 @media (min-width: 768px) {
   /* TODO: Adjust  layout for tablets */
