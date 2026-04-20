@@ -1423,9 +1423,7 @@ padding-bottom: var(--padding-large);
     width: 70%;
     padding: var(--padding-small);
   }
-  .padding-jumbo {
-    padding: var(--padding-medium);
-  }
+ 
   .nav-branding-logo {
     width: 5rem;
     /* TODO: Adjust the width of the logo on large devices here. */
