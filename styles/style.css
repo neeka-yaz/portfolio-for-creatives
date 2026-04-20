@@ -1358,13 +1358,13 @@ to keep your styles reusable and consistent.
   align-items: center;
 }
 
-.project-title
-h1 {
-        font-size: 1rem;
-        line-height: 0.5rem;
+.project-title { 
+  h1 {
+        font-size: 1.5rem
+        line-height: 1rem;
     }
+  }
 
-}
 @media (min-width: 768px) {
   /* TODO: Adjust  layout for tablets */
 .nav-branding {
