@@ -797,7 +797,7 @@ background-position-y: top;
 .portfolio,
 .project-wrapper,
 .work-sidebar-wrapper {
-  padding: var(--padding-medium); /* Padding to keep content from touching edges */
+  padding: var(--padding-small); /* Padding to keep content from touching edges */
 }
 
 /* Work Sidebar on Mobile */
@@ -1431,7 +1431,7 @@ padding-bottom: var(--padding-large);
 
   .hero-headline-wrapper {
     padding-top: var(--padding-small);
-    padding-bottom: var(--padding-medium);
+    padding-bottom: var(--padding-small);
     padding-left: var(--padding-ultra);
     padding-right: var(--padding-ultra);
     width: 100%;
