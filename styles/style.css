@@ -946,10 +946,10 @@ background-position-y: top;
 .footer-global {
   display: grid;
   grid-template-columns: 1fr; /* Single column layout */
-  grid-gap: 2rem;
+  grid-gap: 0rem;
   min-height: auto; /* Allows footer to expand based on content, no fixed height */
   background: var(--color-bg-footer); /* Using CSS variable for theming */
-  padding: var(--padding-small); /* Internal spacing */
+  padding: var(--padding-medium); /* Internal spacing */
 
   /* Note: Using 'fr' units ensures proper scaling across devices */
 }
