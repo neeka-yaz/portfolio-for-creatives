@@ -461,7 +461,7 @@ em {
 
 /* Large project title — appears on individual project pages */
 .project-title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: var(--font-family-project-title);
   color: var(--color-text-project-title);
   margin-bottom: 1rem;
