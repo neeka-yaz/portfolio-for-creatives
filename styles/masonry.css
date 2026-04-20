@@ -13,7 +13,7 @@
   transition: all 0.5s ease-in-out;
   column-gap: 2rem;
   column-fill: initial;
-  padding-top: medium;
+  padding-top: small;
 }
 
 /* 📦 Masonry items
@@ -54,5 +54,6 @@
 @media only screen and (min-width: 1024px) {
   .masonry-grid {
     column-count: 3;
+    padding-top: small;
   }
 }
