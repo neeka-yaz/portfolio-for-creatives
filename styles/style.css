@@ -382,7 +382,7 @@ svg {
 /* Heading Styles (h1 - h6) */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: var(--font-family-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -1357,6 +1357,10 @@ to keep your styles reusable and consistent.
   padding: var(--padding-small);
   align-items: center;
 }
+
+h1 {
+        font-size: 2rem;
+    }
 
 }
 @media (min-width: 768px) {
