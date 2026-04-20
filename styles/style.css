@@ -1358,9 +1358,11 @@ to keep your styles reusable and consistent.
   align-items: center;
 }
 
+.project-title
 h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
+    line-height: 50%;
 
 }
 @media (min-width: 768px) {
