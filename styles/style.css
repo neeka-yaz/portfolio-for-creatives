@@ -792,6 +792,7 @@ background-position-y: top;
 /* Work wrapper (takes up available space) */
 .main-work-section {
   flex: 1;
+  padding-top: medium;
 }
 
 /* Padding around work grid and project page */
