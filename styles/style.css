@@ -1359,12 +1359,10 @@ to keep your styles reusable and consistent.
 }
 
 .project-title { 
-  h1 {
-        font-size: 1.5rem
-        line-height: 1rem;
+  font-size: 1.5rem
+        line-height: 0.5rem;
     }
   }
-}
 
 @media (min-width: 768px) {
   /* TODO: Adjust  layout for tablets */
