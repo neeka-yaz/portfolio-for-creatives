@@ -1360,9 +1360,9 @@ to keep your styles reusable and consistent.
 
 .project-title
 h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.2;
     }
-    line-height: 50%;
 
 }
 @media (min-width: 768px) {
